@@ -1,5 +1,5 @@
 # Php simple Api 
-# Database
+## Database
 
 ```
 CREATE TABLE `users` (
@@ -8,6 +8,10 @@ CREATE TABLE `users` (
   `email` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 );
+```
+##  DB settings
+```
+ config/db.php
 ```
 
 ##  API
